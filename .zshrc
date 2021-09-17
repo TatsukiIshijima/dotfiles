@@ -1,3 +1,10 @@
+# alias setup
+alias ls='ls --color=auto'
+alias ls='ls -G'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
 # rbenv setup
 export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
 
