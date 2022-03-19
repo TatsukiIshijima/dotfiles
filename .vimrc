@@ -29,6 +29,7 @@ set list listchars=tab:\▸\-
 " vim-plug setting
 call plug#begin('~/.vim/plugged')
 
-" add vim plugin
+  " add vim plugin
+  Plug 'tpope/vim-commentary'
 
 call plug#end()
