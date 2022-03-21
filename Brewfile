@@ -12,3 +12,5 @@ cask "google-chrome"
 cask "iterm2"
 cask "jetbrains-toolbox"
 cask "sourcetree"
+
+mas "Xcode", id: 497799835
