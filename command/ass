@@ -1,0 +1,6 @@
+#!/bin/sh
+TODAY=`date +%Y%m%d%H%M%S`
+FILE_PATH="/sdcard/${TODAY}.png"
+adb shell screencap -p $FILE_PATH
+adb pull $FILE_PATH
+adb shell rm $FILE_PATH
